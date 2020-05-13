@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.padding-site {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #445162;
+    height: 323px;
+
+}
+
+
+.header-text h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.header-text ul {
+    color: #fff;
+    padding-left: 74px;
+    padding-top: 25px;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+.header-text {
+    float: left;
+}
+
+.logo {
+    width: 470px;
+    height: 215px;
+    background-color: #fff;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.about {
+    clear: both;
+}
+
+.about-text {
+    width: 660px;
+    height: 345px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+
+}
+
+.about-text h2 {
+    font-size: 30px;
+    color: #445162;
+    font-weight: 400;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 22px;
+    margin-top: 20px;
+
+}
+
+.about-img {
+    width: 430px;
+    height: 245px;
+    float: right;
+    background-color: #445162;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.ul-dignity {
+    clear: both;
+    height: 415px;
+    background-color: #f5f5f5;
+}
+
+.ul-dignity h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.ul-dignity ul {
+    color: #333333;
+    font-size: 16px;
+    line-height: 25px;
+    column-count: 2;
+}
+
+.ul-dignity li {
+    display: inline-block;
+    width: 90%;
+    margin: 20px 50px 0px 50px;
+}
+
+.screenshots {
+    clear: both;
+    padding: 50px 30px 50px 50px;
+    height: 485px;
+    
+}
+
+.screenshots h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #445162;
+}
+
+.div-screenshots {
+    height: 150px;
+    width: 200px;
+    background-color: #445162;
+    float: left;
+    margin-right: 20px;
+}
+
+.screenshots h3 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.screenshots figure {
+    display: inline-block;
+    width: 49%;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.screenshots figcaption {
+    font-size: 16px;
+    color: #333;
+    line-height: 22px;
+}
+
+.contacts {
+    height: 500px;
+    background-color: #445162;
+    padding: 50px;
+}
+
+.contacts h2 {
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+footer {
+    height: 25px;
+    background-color: #fff;
+    
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #445162;
+}
