@@ -172,14 +172,15 @@ header {
 
 
 
-footer {
+.copyrights {
     height: 25px;
     background-color: #fff;
     
 }
 
-footer p {
+.copyrights p {
     text-align: center;
     font-size: 12px;
+    line-height: 25px;
     color: #445162;
 }
