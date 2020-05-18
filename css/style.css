@@ -193,60 +193,140 @@ body {
 .reviews-div {
     display: inline-block;
     width: 49%;
-    position: relative;
-    margin: 40px 0 0 0;
+    margin: 25px 0 0 0;
 
 }
 
-.reviews-div:before {
-    border: 1px solid red;
-    display: block;
-    content: "";
-    width: 80%;
-    min-height: 130px;
-    position: absolute;
-    left: 90px;
+.reviews-cite {
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    left: 100px;
+    width: 75%;
     background-color: #ebebeb;
-    z-index: 0;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.reviews-cite:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -12px;
+    top: 30px;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-right: 12px solid #ebebeb;
 }
 
 .reviews-userpic {
-    border-radius: 70px;
+    border-radius: 40px;
     background-color: #445162;
     display: block;
-    float: left;
-    margin: 0 20px 0 0;
+    position: absolute;
+    margin: 0 0px 0 0px;
 }
 
 .reviews-p {
-    margin: 0 0 15px 0;
-    z-index: 90;
+    margin: 0 0 10px 0;
+    text-align: justify;
 
 }
+
+
 
 .reviews-username {
     text-decoration: none;
     color: #989898;
     font-size: 14px;
-    position: relative;
-    left: 90px;
 }
 
 
+.prices {
+    padding: 50px;
+    box-sizing: border-box;
+}
 
+.prices-h2 {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #445162;
+    margin: 0 0 30px 0;
+}
 
+.prices-wrp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
+.prices-div {
+    background-color: #445162;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 45px 0 0;
+}
 
+.prices-div:last-child {
+    margin: 0;
+}
 
+.prices-div h3 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.prices-span {
+    display: block;
+    background-color: white;
+    min-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #445162;
+    border: 1px solid #445162;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.prices-div ol {
+    color: white;
+    line-height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.prices-btn {
+    min-height: 40px;
+    display: block;
+    width: 90%;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 750;
+    text-transform: uppercase;
+    color: #445162;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: none;
+
+}
+
+.prices-btn:hover {
+    background-color: #ebebeb;
+    font-weight: 800;
+}
 
 .contacts {
     min-height: 500px;
     background-color: #445162;
     padding: 50px;
+    box-sizing: border-box;
 }
 
-.contacts h2 {
+.contacts-h2 {
+    display: block;
     text-align: center;
     font-weight: 400;
     color: #fff;
@@ -254,17 +334,78 @@ body {
     margin: 0;
 }
 
+.contacts-container {
+    display: flex;
+    justify-content: center;
+}
 
+
+.contacts-form-wrp {
+    width: 48%;
+
+
+}
+
+.contacts-form input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 7px;
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    color: #445162;
+    resize: none;
+    font-family: Arial;
+}
+
+
+
+
+
+.contacts-form input[type=submit] {
+    width: 29%;
+    min-height: 40px;
+    border-radius: 7px;
+    margin: 15px 0 0 35%;
+    text-transform: uppercase;
+    font-weight: 750;
+    color: #445162;
+    font-size: 16px;
+    border: none;
+}
+
+.contacts-form input[type=submit]:hover {
+    background-color: #ebebeb;
+    font-weight: 800;
+}
+
+.contacts-sm ul {
+    padding: 0 0 0 40px;
+    margin: 0;
+}
+
+.contacts-sm li {
+    margin: 20px 0 0 0;
+    color: white;
+    font-size: 16px;
+    list-style-type: none;
+
+}
+
+.contacts-sm-img {
+    margin: 25px 0 0 40px;
+}
 
 .copyrights {
     min-height: 25px;
     background-color: #fff;
-
-}
+   }
 
 .copyrights p {
     text-align: center;
     font-size: 12px;
     line-height: 25px;
     color: #445162;
+    margin: 0;
 }
