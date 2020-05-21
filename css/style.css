@@ -12,10 +12,17 @@ body {
     padding: 50px;
     color: #fff;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
 }
 
-.page-header-text {
-    float: left;
+.page-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .page-header-h1 {
@@ -30,20 +37,21 @@ body {
     line-height: 35px;
     list-style-image: url(../img/check.png);
     margin: 0;
-
 }
 
 
 .page-header-img {
     background-color: #fff;
-    float: right;
-    display: block;
 }
 
 .about {
     min-height: 345px;
     padding: 50px;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .about:after {
@@ -55,7 +63,6 @@ body {
 
 .about-text {
     margin: 0;
-    float: left;
     width: 55%;
 
 }
@@ -77,7 +84,6 @@ body {
 }
 
 .about-img {
-    float: right;
     background-color: #445162;
     margin: 0;
 }
@@ -138,6 +144,10 @@ body {
     padding: 50px 30px 50px 50px;
     min-height: 485px;
 
+}
+
+.screenshots p {
+    margin: 10px 0 0 0;
 }
 
 .screenshots-h2 {
@@ -318,6 +328,13 @@ body {
     font-weight: 800;
 }
 
+.prices-btn:active {
+    background-color: #445162;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+}
+
 .contacts {
     min-height: 500px;
     background-color: #445162;
@@ -342,8 +359,6 @@ body {
 
 .contacts-form-wrp {
     width: 48%;
-
-
 }
 
 .contacts-form input[type=text],
@@ -357,11 +372,12 @@ textarea {
     color: #445162;
     resize: none;
     font-family: Arial;
+    padding: 0 0 0 10px;
 }
 
-
-
-
+.contacts-form textarea {
+    padding: 10px 0 0 10px;
+}
 
 .contacts-form input[type=submit] {
     width: 29%;
@@ -380,27 +396,108 @@ textarea {
     font-weight: 800;
 }
 
-.contacts-sm ul {
-    padding: 0 0 0 40px;
-    margin: 0;
-}
-
-.contacts-sm li {
-    margin: 20px 0 0 0;
+.contacts-form input[type=submit]:active {
+    background-color: #445162;
+    border: 2px solid white;
+    border-radius: 7px;
     color: white;
-    font-size: 16px;
-    list-style-type: none;
-
 }
 
-.contacts-sm-img {
-    margin: 25px 0 0 40px;
+.contacts-sm {
+    width: 20%;
+    margin: 15px 0 0 40px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.contacts-sm-link {
+    display: block;
+    margin: 0 0 15px 0;
+    padding: 0 0 0 30px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.contacts-sm-link:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.link1:before {
+    background-image: url(../img/skype.png);
+}
+
+.link2:before {
+    background-image: url(../img/icq.png);
+}
+
+.link3:before {
+    background-image: url(../img/mail.png);
+}
+
+.link4:before {
+    background-image: url(../img/phone.png)
+}
+
+.contacts-sm-link:last-of-type {
+    margin: 0 0 32px 0;
+}
+
+.contacts-sm-icons {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+   }
+
+.contacts-sm-icons-net {
+    display: block;
+    width: 42px;
+    height: 42px;
+    box-sizing: border-box;
+    }
+
+.icon1 {
+    background-size: cover;
+    background-image: url(../img/twitter.png);
+}
+
+.icon2 {
+    background-size: cover;
+    background-image: url(../img/facebook.png);
+    
+}
+
+.icon3 {
+    background-size: cover;
+    background-image: url(../img/linkedin.png);
+}
+
+.icon4 {
+    background-size: cover;
+    background-image: url(../img/google.png);
+}
+
+.icon5 {
+    background-size: cover;
+    background-image: url(../img/facebook.png);
 }
 
 .copyrights {
     min-height: 25px;
     background-color: #fff;
-   }
+}
 
 .copyrights p {
     text-align: center;
