@@ -39,7 +39,6 @@ body {
     margin: 0;
 }
 
-
 .page-header-img {
     background-color: #fff;
 }
@@ -64,7 +63,6 @@ body {
 .about-text {
     margin: 0;
     width: 55%;
-
 }
 
 .about-text-h2 {
@@ -80,7 +78,6 @@ body {
     color: #333333;
     line-height: 22px;
     margin: 20px 0 0 0;
-
 }
 
 .about-img {
@@ -110,7 +107,6 @@ body {
     line-height: 25px;
     column-count: 2;
     margin: 0;
-
 }
 
 .ul-dignity-li {
@@ -143,7 +139,6 @@ body {
     clear: both;
     padding: 50px 30px 50px 50px;
     min-height: 485px;
-
 }
 
 .screenshots p {
@@ -169,7 +164,6 @@ body {
     margin: 0;
     font-size: 24px;
     font-weight: 400;
-
 }
 
 .screenshots figure {
@@ -204,7 +198,6 @@ body {
     display: inline-block;
     width: 49%;
     margin: 25px 0 0 0;
-
 }
 
 .reviews-cite {
@@ -238,17 +231,13 @@ body {
 .reviews-p {
     margin: 0 0 10px 0;
     text-align: justify;
-
 }
-
-
 
 .reviews-username {
     text-decoration: none;
     color: #989898;
     font-size: 14px;
 }
-
 
 .prices {
     padding: 50px;
@@ -320,7 +309,6 @@ body {
     margin: 0 auto;
     margin-bottom: 15px;
     border: none;
-
 }
 
 .prices-btn:hover {
@@ -355,7 +343,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 
 .contacts-form-wrp {
     width: 48%;
@@ -459,14 +446,14 @@ textarea {
     justify-content: space-between;
     box-sizing: border-box;
     flex-wrap: wrap;
-   }
+}
 
 .contacts-sm-icons-net {
     display: block;
     width: 42px;
     height: 42px;
     box-sizing: border-box;
-    }
+}
 
 .icon1 {
     background-size: cover;
@@ -476,7 +463,7 @@ textarea {
 .icon2 {
     background-size: cover;
     background-image: url(../img/facebook.png);
-    
+
 }
 
 .icon3 {
