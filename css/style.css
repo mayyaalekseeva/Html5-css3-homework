@@ -329,6 +329,10 @@ body {
     outline: none;
 }
 
+.prices-btn:focus {
+    outline: none;
+}
+
 .contacts {
     min-height: 500px;
     background-color: #445162;
@@ -396,6 +400,10 @@ textarea {
     border: 2px solid white;
     border-radius: 7px;
     color: white;
+}
+
+.contacts-form input[type=submit]:focus {
+    outline: none;
 }
 
 .contacts-sm {
